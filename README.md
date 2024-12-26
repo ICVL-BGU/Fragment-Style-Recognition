@@ -4,7 +4,7 @@ This repository contains all code for training and evaluating the models from ou
 
 ## Setup
 1. Clone this repository.
-2. To install the required dependencies run ```bash pip install -r requirements.txt```.
+2. To install the required dependencies run ```shell pip install -r requirements.txt```.
 3. If you wish to use the proposed POMPAAF dataset, download it from [here](https://bgu365.sharepoint.com/:f:/s/ICVL/ElyJxN--aONDsd83cVwu4FABsPQqGKrV_3HYb480omJHHA?e=sna8Bh) and place the extracted folders in the `pompaaf/` directory.
 
 ## Configuration
@@ -22,7 +22,7 @@ Edit the `config.yml` file to set your preferred training and evaluation paramet
 More parameters and further explanations can be examined in `config.yml`.
 
 ## Usage
-After defining your configurations, simply run ```bash python main.py config.yml``` to train/evaluate/both.
+After defining your configurations, simply run ```python main.py config.yml``` to train/evaluate/both.
 
 ## Citation
 If you are using this code or the POMPAAF dataset, please cite:
