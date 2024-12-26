@@ -19,6 +19,8 @@ Edit the `config.yml` file to set your preferred training and evaluation paramet
 - `model_name`: To uniquely identify your model in the `ckpt_dir`.
 - `sx_name`: Use `"new"` to train a Style Extrapolator from scratch or supply a checkpoint file in the `ckpt_dir`.
 
+More parameters and further explanations can be examined in `config.yml`.
+
 ## Usage
 After defining your configurations, simply run ```bash python main.py config.yml``` to train/evaluate/both.
 
