@@ -1,0 +1,21 @@
+
+# General
+do_train: true # Set to true to train the model
+do_eval: true # Set to true to evaluate the model
+
+# Training parameters
+lr: 0.001
+max_epochs: 128
+
+# Data parameters
+data_dir: 'pompaaf/ErodedVoronoi' # Path to the dataset directory (should contain 'train' and 'test' subfolders)
+batch_size: 32
+num_workers: 4 # Number of workers for data loading (see PyTorch DataLoader)
+
+# Model parameters
+n_styles: 4 # Number of styles in the dataset (4 for POMPAAF, 11 for CLEOPATRA)
+model_name: 'my_proposed' # Model name (if not `do_train` then this model name will be loaded from `ckpt_dir`)
+model_type: 'proposed' # Model type (options: `proposed`, `ft`, `cnn`)
+ckpt_dir: 'checkpoints/' # Path to the directory containing the model weights
+sx_name: 'new' # if 'new' then the model will be trained from scratch, otherwise provide the file name in the `ckpt_dir` to load the model weights
+
