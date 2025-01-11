@@ -1,6 +1,6 @@
 # Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation
 
-This repository contains all the code for training and evaluating the models from our paper "Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation" (read it [here](https://arxiv.org/pdf/2501.00836), to be presented at HCII 2025.
+This repository contains all the code for training and evaluating the models from our paper "Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation" (read it [here](https://arxiv.org/pdf/2501.00836)), to be presented at HCII 2025.
 
 ## Setup
 1. Clone this repository.
