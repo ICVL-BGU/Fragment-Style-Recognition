@@ -1,6 +1,6 @@
 # Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation
 
-This repository contains all code for training and evaluating the models from our paper "Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation", to be presented in HCII 2025.
+This repository contains all the code for training and evaluating the models from our paper "Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation", to be presented at HCII 2025.
 
 ## Setup
 1. Clone this repository.
@@ -26,4 +26,12 @@ After defining your configurations, simply run ```python main.py config.yml``` t
 
 ## Citation
 If you are using this code or the POMPAAF dataset, please cite:
+```
+@article{elkin2025recognizing,
+  title={Recognizing Artistic Style of Archaeological Image Fragments Using Deep Style Extrapolation},
+  author={Elkin, Gur and Shahar, Ofir Itzhak and Ohayon, Yaniv and Alali, Nadav and Ben-Shahar, Ohad},
+  journal={arXiv preprint arXiv:2501.00836},
+  year={2025}
+}
+```
 
